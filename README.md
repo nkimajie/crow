@@ -36,7 +36,7 @@ A REST API for managing event categories organized in a tree structure.
 Create a `.env` file in the root directory with the following variables:
 
 ```
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/event_management?schema=public"
+DATABASE_URL="postgresql://postgres.mzfyowjjqmlnzorzgjqc:ABab12.,@aws-0-us-east-2.pooler.supabase.com:5432/postgres"
 NODE_ENV=development
 ```
 
