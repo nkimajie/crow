@@ -11,9 +11,9 @@ A REST API for managing event categories organized in a tree structure.
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js
 - PostgreSQL
-- npm or yarn
+- npm
 
 ## Installation
 
@@ -24,7 +24,7 @@ A REST API for managing event categories organized in a tree structure.
    ```
 3. Set up the database:
    ```bash
-   npm run prisma:migrate
+   npm run prisma:migrate:dev
    ```
 4. Generate Prisma client:
    ```bash
@@ -60,7 +60,7 @@ Request body:
 ```json
 {
   "label": "Category Name",
-  "parentId": 1 // optional
+  "parentId": 1
 }
 ```
 
